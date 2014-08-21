@@ -8,10 +8,10 @@ int main() {
     printf ("Entre com 3 valores inteiros positivos\n");
     scanf ("%d%d%d", &a, &b, &c);
 
-    r = (a+b)*(a+b);
-    s = (b+c)*(b+c);
+    r = (a + b) * (a + b);
+    s = (b + c) * (b + c);
 
-    d = (float)(r+s)/2;
+    d = (float)(r + s) / 2;
 
     printf ("%.2f", d);
 

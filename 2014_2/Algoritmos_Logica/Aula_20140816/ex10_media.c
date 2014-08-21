@@ -7,7 +7,7 @@ int main() {
     printf ("Entre com 3 notas de 0 a 10\n");
     scanf ("%f%f%f", &nota1, &nota2, &nota3);
 
-    media = (nota1+nota2+nota3)/3;
+    media = (nota1 + nota2 + nota3) / 3;
 
     printf ("A media final foi: %.2f", media);
 
